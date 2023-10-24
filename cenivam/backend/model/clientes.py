@@ -1,5 +1,5 @@
 from sqlalchemy import Table, Column   
-from sqlalchemy.sql.sqltypes import Integer, String
+from sqlalchemy.sql.sqltypes import Integer, String, Boolean
 from config.db import engine, meta_data
 
 cliente = Table("cliente", meta_data, 
